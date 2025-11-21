@@ -1,29 +1,32 @@
 {
-  "window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "toggle",
+    "window.title": "${activeEditorMedium}",
+    "window.zoomLevel": 1,
 
-  "editor.fontSize": 20,
-  "editor.tabSize": 3,
-  "editor.wordWrap": "on",
-  "editor.minimap.enabled": false,
-  "editor.suggestFontSize": 16,
-  "editor.suggestLineHeight": 20,
+    "editor.fontSize": 16,
+    "editor.tabSize": 4,
+    "editor.cursorWidth": 3,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.minimap.enabled": false,
+    "editor.fontLigatures": true,
 
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
 
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.scrollbar.verticalScrollbarSize": 0,
-  "editor.scrollbar.horizontalScrollbarSize": 8,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
 
-  "terminal.integrated.defaultProfile.linux": "bash",
-  "terminal.integrated.fontSize": 12,
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.scrollbar.horizontalScrollbarSize": 8,
 
-  "workbench.colorTheme": "Solarized Dark",
-  "workbench.layoutControl.enabled": false,
-  "workbench.activityBar.location": "hidden",
-  "workbench.statusBar.visible": false,
-  "workbench.startupEditor": "none",
+    "liveServer.settings.donotShowInfoMsg": true,
 
-  "chat.commandCenter.enabled": false,
-  "files.autoSave": "afterDelay"
+    "chat.agent.enabled": false,
+    "chat.disableAIFeatures": true,
+
+    "workbench.activityBar.location": "top",
+    "workbench.navigationControl.enabled": false,
+    "workbench.startupEditor": "none",
 }
