@@ -1,14 +1,12 @@
 {
     "window.menuBarVisibility": "toggle",
     "window.title": "${activeEditorMedium}",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
 
     "editor.fontSize": 16,
     "editor.tabSize": 4,
-    "editor.cursorWidth": 3,
-    "editor.fontFamily": "Cascadia Code",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.minimap.enabled": false,
-    "editor.fontLigatures": true,
 
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
@@ -25,8 +23,29 @@
 
     "chat.agent.enabled": false,
     "chat.disableAIFeatures": true,
-
+    // Workbench Settings
     "workbench.activityBar.location": "top",
     "workbench.navigationControl.enabled": false,
     "workbench.startupEditor": "none",
+    // Terminal Settings
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/usr/bin/bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "bash"
 }
